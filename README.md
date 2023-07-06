@@ -63,3 +63,17 @@
 - Django (using Django Rest Framework for designing APIs)
 
 - Postgres / SQLite / MySQL
+
+# Setup and Usage
+
+- Clone the repository: git clone <repository-url>
+
+- Install the required dependencies: pip install -r requirements.txt
+
+- Configure the database settings in settings.py according to your chosen database.
+
+- Run the initial database migration: python manage.py migrate
+
+- Start the development server: python manage.py runserver
+
+- Access the application in your browser at http://localhost:8000
